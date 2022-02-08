@@ -6,11 +6,11 @@ const CardParagraph = () => {
   return (
     <div className="cardParagraph">
       <p className="left-p">
-        <img src={eth} alt="ethereum" loading="lazy" />
+        <img src={eth} alt="ethereum" />
         0.041 ETH
       </p>
       <p className="right-p">
-        <img src={clock} alt="clock" loading="lazy" />3 days left
+        <img src={clock} alt="clock" />3 days left
       </p>
     </div>
   );
