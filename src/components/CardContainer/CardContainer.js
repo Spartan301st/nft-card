@@ -9,9 +9,9 @@ const CardContainer = () => {
   return (
     <div className="cardContainer">
       <div className="cubeImgContainer">
-        <img src={cube} alt="cube" loading="lazy" />
+        <img src={cube} alt="cube" />
         <div className="imgCyanCover">
-          <img src={eye} alt="view" loading="lazy" />
+          <img src={eye} alt="view" />
         </div>
       </div>
       <CardHeader />
