@@ -5,7 +5,7 @@ const Author = () => {
   return (
     <div className="author">
       <div className="authorImageContainer">
-        <img src={avatar} alt="Avatar" loading="lazy" />
+        <img src={avatar} alt="Avatar" />
       </div>
       <p>
         <span className="creationText">Creation of</span> <span className="userName">Jules Wyvern </span>
