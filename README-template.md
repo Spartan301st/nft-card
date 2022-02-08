@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Spartan301st/nft-card)
+- Live Site URL: [Add live site URL here](https://nft-card-react.netlify.app/)
 
 ## My process
 
@@ -40,5 +40,4 @@ Users should be able to:
 ## Author
 
 - Website - [Anil G.](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Spartan301st](https://www.frontendmentor.io/profile/Spartan301st)
