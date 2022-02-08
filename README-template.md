@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Spartan301st/nft-card)
-- Live Site URL: [Add live site URL here](https://nft-card-react.netlify.app/)
+- Solution URL: [Solution](https://github.com/Spartan301st/nft-card)
+- Live Site URL: [Netlify site](https://nft-card-react.netlify.app/)
 
 ## My process
 
