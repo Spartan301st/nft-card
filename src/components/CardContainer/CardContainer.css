@@ -1,0 +1,91 @@
+:root {
+  --cyan: hsl(178, 100%, 50%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --paragraph-size: 18px;
+}
+
+.cardContainer {
+  min-height: 550px;
+  width: 300px;
+  background-color: var(--card-bg);
+  border-radius: 1em;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 0.5em;
+}
+
+p,
+h2 {
+  font-size: var(--paragraph-size);
+}
+
+hr {
+  width: 100%;
+  height: 0;
+  border-top: 1px;
+  border-color: var(--line);
+}
+
+.cubeImgContainer {
+  cursor: pointer;
+  border-radius: 0.5em;
+  position: relative;
+}
+
+.imgCyanCover {
+  display: none;
+}
+
+.imgCyanCover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(178, 100%, 50%, 0.4);
+  border-radius: 0.5em;
+}
+
+.imgCyanCover img {
+  height: 2.5em;
+}
+
+.cubeImgContainer:hover .imgCyanCover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Small devices (large/landscape phones) */
+@media only screen and (min-width: 550px) {
+  .cardContainer {
+    transform: scale(0.5);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (min-height: 768px) {
+  .cardContainer {
+    transform: scale(1.2);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Seems OK */
+}
+@media only screen and (min-width: 1200px) {
+  .cardContainer {
+    transform: scale(1);
+  }
+}
+@media only screen and (min-width: 1650px) {
+  .cardContainer {
+    transform: scale(1.2);
+  }
+}

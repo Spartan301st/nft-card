@@ -1,0 +1,26 @@
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+.cardParagraph {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.cardParagraph p {
+  display: flex;
+  align-items: center;
+}
+
+.cardParagraph .left-p {
+  color: var(--cyan);
+  font-weight: 400;
+}
+.cardParagraph .right-p {
+  color: var(--soft-blue);
+}
+
+.cardParagraph p img {
+  margin-right: 5px;
+}

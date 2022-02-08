@@ -1,0 +1,30 @@
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --white: hsl(0, 0%, 100%);
+  --cyan: hsl(178, 100%, 50%);
+}
+.author {
+  display: flex;
+  align-items: center;
+  /* height: 2em; */
+}
+
+.author p {
+  font-weight: 300;
+}
+.userName:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.creationText {
+  color: var(--soft-blue);
+  font-weight: 400;
+}
+
+.authorImageContainer {
+  border-radius: 50%;
+  height: 2em;
+  margin-right: 1em;
+  border: 1px solid var(--white);
+}

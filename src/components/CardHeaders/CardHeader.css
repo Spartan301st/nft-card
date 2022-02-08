@@ -1,0 +1,26 @@
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --white: hsl(0, 0%, 100%);
+  --cyan: hsl(178, 100%, 50%);
+}
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHeader h1 {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: var(--white);
+  margin: 10px 0;
+}
+
+.cardHeader h1:hover {
+  cursor: pointer;
+  color: var(--cyan);
+}
+
+.cardHeader h2 {
+  font-weight: 400;
+  color: var(--soft-blue);
+}
